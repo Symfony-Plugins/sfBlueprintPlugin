@@ -1,0 +1,19 @@
+# Symfony wrapper for Blueprint Css Framework #
+
+The `sfBlueprintPlugin` offers helpers that integrate the [Blueprint CSS framework](http://www.blueprintcss.org/) V 0.9.1.
+
+## Usage ##
+In your application settings.yml
+
+    [yaml]
+    all:
+	  .setting
+	    standard_helpers:       [..., blueprint]
+
+## Options ##
+Blueprint css framework is provided with 4 plugins. You can activate them in app.yml
+
+    [yaml]
+    all:
+	  blueprint:
+	    plugins: [buttons,fancy-type,link-icons,rtl]

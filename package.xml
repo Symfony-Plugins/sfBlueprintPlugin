@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.4.1" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+  <name>sfBlueprintPlugin</name>
+  <channel>pear.symfony-project.com</channel>
+  <summary>Wrap blueprint 0.9.1 Css framework in Symfony</summary>
+  <description>Wrap blueprint 0.9.1 Css framework in Symfony</description>
+  <lead>
+    <name>Gregory Schurgast</name>
+    <user>Gregory Schurgast</user>
+    <email>greg@negko.com</email>
+    <active>yes</active>
+  </lead>
+  <date>2010-01-08</date>
+  <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+  </version>
+  <stability>
+    <release>stable</release>
+    <api>stable</api>
+  </stability>
+  <license uri="http://www.symfony-project.org/license">MIT license</license>
+  <notes>-</notes>
+  <contents>
+    <dir name="/"><file name="._package.xml.tmpl" role="data"/><dir name="web"><dir name="css"><file name="._print.css" role="data"/><file name="._ie.css" role="data"/><dir name="plugins"><dir name="fancy-type"><file name="readme.txt" role="data"/><file name="._screen.css" role="data"/><file name="screen.css" role="data"/><file name="._readme.txt" role="data"/></dir><file name="._rtl" role="data"/><dir name="buttons"><file name="readme.txt" role="data"/><dir name="icons"><file name="._tick.png" role="data"/><file name="cross.png" role="data"/><file name="._cross.png" role="data"/><file name="._key.png" role="data"/><file name="tick.png" role="data"/><file name="key.png" role="data"/></dir><file name="._screen.css" role="data"/><file name="screen.css" role="data"/><file name="._icons" role="data"/><file name="._readme.txt" role="data"/></dir><file name="._buttons" role="data"/><dir name="link-icons"><file name="readme.txt" role="data"/><dir name="icons"><file name="pdf.png" role="data"/><file name="external.png" role="data"/><file name="._doc.png" role="data"/><file name="._external.png" role="data"/><file name="feed.png" role="data"/><file name="._pdf.png" role="data"/><file name="xls.png" role="data"/><file name="visited.png" role="data"/><file name="._email.png" role="data"/><file name="email.png" role="data"/><file name="._xls.png" role="data"/><file name="doc.png" role="data"/><file name="._visited.png" role="data"/><file name="._im.png" role="data"/><file name="im.png" role="data"/><file name="._feed.png" role="data"/></dir><file name="._screen.css" role="data"/><file name="screen.css" role="data"/><file name="._icons" role="data"/><file name="._readme.txt" role="data"/></dir><file name="._fancy-type" role="data"/><dir name="rtl"><file name="readme.txt" role="data"/><file name="._screen.css" role="data"/><file name="screen.css" role="data"/><file name="._readme.txt" role="data"/></dir><file name="._link-icons" role="data"/></dir><file name="ie.css" role="data"/><file name="._plugins" role="data"/><file name="._screen.css" role="data"/><file name="screen.css" role="data"/><file name="print.css" role="data"/></dir></dir><file name="._LICENSE" role="data"/><file name="LICENSE" role="data"/><dir name="config"><file name="sfBlueprintPluginConfiguration.class.php" role="data"/></dir><file name="._README" role="data"/><file name="README" role="data"/><dir name="lib"><dir name="helper"><file name="blueprintHelper.php" role="data"/><file name="._blueprintHelper.php" role="data"/></dir></dir></dir>
+
+  </contents>
+  <dependencies>
+    <required>
+      <php>
+        <min>5.2.4</min>
+      </php>
+      <pearinstaller>
+        <min>1.4.1</min>
+      </pearinstaller>
+      <package>
+        <name>symfony</name>
+        <channel>pear.symfony-project.com</channel>
+        <min>1.2.0</min>
+        <max>1.4.0</max>
+      </package>
+    </required>
+  </dependencies>
+  <phprelease></phprelease>
+  <changelog>
+    <release>
+      <version>
+        <release>1.0.0</release>
+        <api>1.0.0</api>
+      </version>
+      <stability>
+        <release>stable</release>
+        <api>stable</api>
+      </stability>
+      <license uri="http://www.symfony-project.com/license">MIT license</license>
+      <license>MIT</license>
+      <date>2010-01-11</date>
+      <notes>
+        * Initial release of the plugin
+      </notes>
+    </release>
+  </changelog>
+</package>
